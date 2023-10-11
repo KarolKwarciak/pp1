@@ -1,0 +1,6 @@
+a = int(input("Enter mother's income"))
+b = int(input("Enter Father's income"))
+c = int(input("Enter the nbumber of family members"))
+d = (a + b)
+e = (d / c)
+print("income per person =",e)
