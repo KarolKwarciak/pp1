@@ -1,2 +1,5 @@
 a = int(input("Enter the number"))
-print("Absolute value of the number is", abs(a))
+if a > 0:
+    print("Absolute value of the number is", a)
+else:
+    print("Absolute value of the number is", -a)
