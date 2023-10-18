@@ -1,5 +1,5 @@
-a = 0
+suma = 0
 for i in range(1,6):
     print(i)
-    a = a + i
-print(f'Sum is {a}')
+    suma = suma + i
+print(f'Sum is {suma}')
