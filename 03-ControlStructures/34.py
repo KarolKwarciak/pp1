@@ -1,4 +1,4 @@
-amount = int(input("Enter the amount in PLN:"))
+amount = int(input("Enter the amount in PLN: "))
 zloty5 = amount//5
 remainder = amount%5
 zloty2 = remainder//2
