@@ -1,0 +1,6 @@
+Tuple = (50,20,40,50,30,50)
+a = int(input("Enter your number"))
+b = Tuple.count(a)
+print(f"Tuple: {",".join(map(str,Tuple))}")
+print("Value:",a)
+print("Number of occurences:",b)
