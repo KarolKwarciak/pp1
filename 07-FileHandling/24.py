@@ -1,6 +1,6 @@
 import csv
 with open("studentlist.csv", "r") as file:
    reader = csv.DictReader(file)
-   for rows in reader:
-      if int(rows["age"]) < 30:
-         print(f"\n{rows['first_name']}  {rows['last_name']}  {rows['email']}")
+   for i in reader:
+      if int(i["age"]) < 30:
+         print(f"\n{i['first_name']}  {i['last_name']}  {i['email']}")

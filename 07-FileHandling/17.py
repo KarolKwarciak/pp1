@@ -1,6 +1,4 @@
-filename = "30.txt"
-
-with open(filename, 'r') as file:
+with open("30.txt") as file:
     lines = file.readlines()
     total_lines = len(lines)
     current_lines = 0
@@ -12,3 +10,5 @@ with open(filename, 'r') as file:
                 print(lines[current_lines], end = "")
                 current_lines += 1
         input("Press Enter to continue...")
+
+
