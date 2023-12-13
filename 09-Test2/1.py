@@ -16,5 +16,5 @@ def f(player1, player2):
     else:
         return False
 
-print(f("AJ973", "AQT72"))  # Output: True
-print(f("9532", "K8"))      # Output: False
+print(f("AJ973", "AQT72"))  
+print(f("9532", "K8"))     
